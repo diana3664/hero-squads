@@ -23,12 +23,17 @@ public class HerosTest {
     }
 
     @Test
-    public void Heros_instantiatesWithAge_String() {
+    public void Heros_instantiatesWithAge_int() {
         Heros hero = new Heros("Moh","21","flash","time");
         assertArrayEquals("21", hero.getmAge());
 
     }
 
+    @Test
+    public void Heros_instantiatesWithpower_String() {
+        Heros hero = new Heros("Moh","21","flash","time");
+        assertArrayEquals("flash", hero.getmPower());
 
+    }
 
 }
