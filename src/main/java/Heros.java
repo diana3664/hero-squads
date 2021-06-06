@@ -28,4 +28,9 @@ public class Heros {
     public String getmAge() {
         return mAge;
     }
+
+    public String getmPower() {
+        return mPower;
+    }
+
 }
