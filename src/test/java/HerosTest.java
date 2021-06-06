@@ -36,4 +36,11 @@ public class HerosTest {
 
     }
 
+
+    @Test
+    public void Heros_instantiatesWithPower_String() {
+        Heros hero = new Heros("Moh","21","flash","time");
+        assertArrayEquals("time", hero.getmWeakness());
+
+    }
 }
