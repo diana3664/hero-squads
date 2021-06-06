@@ -24,4 +24,8 @@ public class Heros {
         return mName;
     }
 
+
+    public String getmAge() {
+        return mAge;
+    }
 }
