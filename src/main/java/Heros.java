@@ -36,4 +36,10 @@ public class Heros {
     public String getmWeakness() {
         return mWeakness;
     }
+
+    public static List<Heros> all() {
+        return instances;
+    }
+
+
 }
