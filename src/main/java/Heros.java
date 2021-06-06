@@ -41,6 +41,10 @@ public class Heros {
         return instances;
     }
 
+    public static void clear(){
+        instances.clear();
+    }
+
     public int getmId() {
         return mId;
     }

@@ -56,23 +56,21 @@ public class HerosTest {
 
     }
 
-//    @Test
-//    public void clear_emptiesAllHeros_0() {
-//        Heros heroOne = new Heros("Moh","21","flash","time");
-//        Heros.clear();
-//        assertEquals(Heros.all().size(),0);
-//    }
+    @Test
+    public void clear_emptiesAllHeros_0() {
+        Heros heroOne = new Heros("Moh","21","flash","time");
+        Heros.clear();
+        assertEquals(Heros.all().size(),0);
+    }
 
 
     @Test
     public void getId_heros_1() {
         Heros hero = new Heros("Moh","21","flash","time");
         
-        assertArrayEquals(1, hero.getmId());
+        assertEquals(1, hero.getmId());
 
     }
 
-    private void assertArrayEquals(int i, int getmId) {
-    }
 
 }
