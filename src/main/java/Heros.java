@@ -33,4 +33,7 @@ public class Heros {
         return mPower;
     }
 
+    public String getmWeakness() {
+        return mWeakness;
+    }
 }
