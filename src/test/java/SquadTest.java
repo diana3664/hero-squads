@@ -11,6 +11,18 @@ public class SquadTest {
             assertTrue(squad instanceof Squad);
 
         }
+
+    @Test
+    public void Heros_instantiatesWithName_String() {
+        Squad squad = new Squad("Moh","","");
+        assertArrayEquals("Moh", squad.getmName());
+
     }
+    private void assertArrayEquals(String moh, String name) {
+    }
+
+
+
+}
 
 
