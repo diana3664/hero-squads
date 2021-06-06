@@ -43,4 +43,16 @@ public class HerosTest {
         assertArrayEquals("time", hero.getmWeakness());
 
     }
+
+
+    @Test
+    public void all_returnsAllInstancesOfHeros_true() {
+        Heros heroOne = new Heros("Moh","21","flash","time");
+        Heros heroTwo = new Heros("Tuma","21","Fire","time");
+
+        assertTrue(Heros.all().contains(heroOne));
+        assertTrue(Heros.all().contains(heroTwo));
+
+
+    }
 }
