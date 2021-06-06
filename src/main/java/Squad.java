@@ -14,5 +14,7 @@ public class Squad {
 
     }
 
-
+    public String getmName() {
+        return mName;
+    }
 }
