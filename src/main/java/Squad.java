@@ -22,5 +22,7 @@ public class Squad {
         return mCauseForFighting;
     }
 
-
+    public String getmSize() {
+        return mSize;
+    }
 }
