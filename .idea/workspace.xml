@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9e363a3-0187-4bce-afba-81818648f74b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HerosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HerosTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +18,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -59,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.HerosTest.Heros_instantiatesWithPower_String">
+  <component name="RunManager" selected="Gradle.HerosTest.all_returnsAllInstancesOfHeros_true">
     <configuration name="HerosTest.Heros_instantiatesWithAge_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HerosTest.newHeros_instantntiateCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HerosTest.all_returnsAllInstancesOfHeros_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HerosTest.newHeros_instantntiateCorrectly&quot;" />
+        <option name="scriptParameters" value="--tests &quot;HerosTest.all_returnsAllInstancesOfHeros_true&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -162,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HerosTest.all_returnsAllInstancesOfHeros_true" />
         <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithPower_String" />
         <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithpower_String" />
         <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithAge_int" />
         <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithAge_String" />
-        <item itemvalue="Gradle.HerosTest.newHeros_instantntiateCorrectly" />
       </list>
     </recent_temporary>
   </component>
