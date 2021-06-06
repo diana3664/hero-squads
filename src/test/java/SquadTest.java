@@ -13,16 +13,34 @@ public class SquadTest {
         }
 
     @Test
-    public void Heros_instantiatesWithName_String() {
-        Squad squad = new Squad("Moh","","");
-        assertArrayEquals("Moh", squad.getmName());
+    public void Squad_instantiatesWithName_String() {
+        Squad squad = new Squad("Mumu", "Save the universe", "12");
+        assertEquals("Mumu", squad.getName());
 
     }
-    private void assertArrayEquals(String moh, String name) {
+//    private void assertArrayEquals(String moh, String name) {
+//    }
+
+    @Test
+    public void Squad_instantiatesWithCauseForFighting_Sting() {
+        Squad squad = new Squad("Mumu", "Save the universe", "12");
+        assertEquals("Save the universe", squad.getCauseForFighting());
+
     }
 
+    @Test
+    public void Squad_instantiatesWithSize_Sting() {
+        Squad squad = new Squad("Mumu", "Save the universe", "12");
+        assertEquals("12", squad.getSize());
 
+    }
 
+    @Test
+    public void Heros_instantiatesWithAge_int() {
+        Squad squad = new Squad("Mbogi", "Save the universe", "12");
+        assertEquals("Save the universe", squad.getCauseForFighting());
+
+    }
 }
 
 

@@ -20,7 +20,7 @@ public class Heros {
 
     }
 
-    public String getName() {
+    public String getmName() {
         return mName;
     }
 

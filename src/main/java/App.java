@@ -13,7 +13,7 @@ public class App {
 
         get("/heroes", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            return new ModelAndView(model, "form.hbs");
+            return new ModelAndView(model, "HerosForm.hbs");
 
         }, new HandlebarsTemplateEngine());
 

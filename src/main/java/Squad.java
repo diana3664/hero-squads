@@ -14,15 +14,16 @@ public class Squad {
 
     }
 
-    public String getmName() {
+
+    public String getName() {
         return mName;
     }
 
-    public String getmCauseForFighting() {
+    public String getCauseForFighting() {
         return mCauseForFighting;
     }
 
-    public String getmSize() {
+    public String getSize() {
         return mSize;
     }
 }
