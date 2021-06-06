@@ -41,5 +41,7 @@ public class Heros {
         return instances;
     }
 
-
+    public int getmId() {
+        return mId;
+    }
 }
