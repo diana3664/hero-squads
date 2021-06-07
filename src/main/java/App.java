@@ -17,13 +17,23 @@ public class App {
 
         }, new HandlebarsTemplateEngine());
 
-        get("/heroes", (request, response) -> {
+        get("/heroes/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            return new ModelAndView(model, "HerosForm.hbs");
+            return new ModelAndView(model, "form.hbs");
 
         }, new HandlebarsTemplateEngine());
 
-        post("/heroes", (request,response)-> {
+
+
+        get("/heroes", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            model.put("heroes",Heros.all());
+            return new ModelAndView(model, "heros.hbs");
+
+        }, new HandlebarsTemplateEngine());
+
+
+        post("/heroes/new", (request,response)-> {
             Map<String, Object> model = new HashMap<String, Object>();
 
             String name = request.queryParams("name");
@@ -43,6 +53,23 @@ public class App {
             return new ModelAndView(model, "successForm.hbs");
 
 
+
+        }, new HandlebarsTemplateEngine());
+
+
+//        trial
+
+        get("/home", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            model.put("heroes",Heros.all());
+            return new ModelAndView(model, "home.hbs");
+
+        }, new HandlebarsTemplateEngine());
+
+        get("/squad", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            model.put("heroes",Heros.all());
+            return new ModelAndView(model, "SquadForm.hbs");
 
         }, new HandlebarsTemplateEngine());
 
