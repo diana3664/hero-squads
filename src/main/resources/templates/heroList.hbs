@@ -6,9 +6,11 @@
     {{#if heroes}}
     {{#each heroes }}
     <p>Current heroes</p>
-    <p>{{ name }}
-        <a href="/heroes/{{id}}">read more...</a>
-    </p> <!--show-->
+    <p> Name:{{ name }}</p>
+    <p>Age:{{ age }}</p>
+    <p>Power:{{ power }}</p>
+    <p>Weakness:{{ weakness }}</p>
+
     {{/each}}
     {{else}} <!--no posts!-->
 

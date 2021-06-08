@@ -141,7 +141,7 @@ public class App {
             Map<String, Object> model = new HashMap<String, Object>();
 
 
-            Squad squad = Squad.find(Integer.parseInt(request.queryParams("squadId")));
+//            Squad squad = Squad.find(Integer.parseInt(request.queryParams("squadId")));
 
 
             String name = request.queryParams("name");
@@ -151,7 +151,7 @@ public class App {
 
 
 
-            Heros hero = new Heros(name, age, power, weakness);
+//            Heros hero = new Heros(name, age, power, weakness);
 
 //            squad.addHero(hero);
 //            model.put("squad", squad);
@@ -164,12 +164,22 @@ public class App {
 
 
         //get: show all posts
-        get("/", (req, res) -> {
+        get("/heroes", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
             ArrayList<Heros> heros =Heros.all();
             model.put("Hero", heros);
 
-            return new ModelAndView(model, "index.hbs");
+            return new ModelAndView(model, "heroList.hbs");
+        }, new HandlebarsTemplateEngine());
+
+
+        //get: show an individual post
+        get("/heroes/:id", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            int idOfHeroToFind = Integer.parseInt(req.params("id")); //pull id - must match route segment
+            Heros foundHero = Heros.find(idOfHeroToFind); //use it to find post
+            model.put("post", foundHero); //add it to model for template to display
+            return new ModelAndView(model, "hero-detail.hbs"); //individual post page.
         }, new HandlebarsTemplateEngine());
 
 //
