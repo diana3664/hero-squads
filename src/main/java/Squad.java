@@ -8,7 +8,7 @@ public class Squad {
     private String mSize;
     private static List<Squad> instances = new ArrayList<>();
     private int mId;
-    private List<Heros>mHeroes;
+    private ArrayList<Heros>mHeroes;
 
     public Squad(String name ,String causeForFighting, String size) {
         this.mName = name;
@@ -30,8 +30,8 @@ public class Squad {
         return mSize;
     }
 
-    public static List<Squad> all() {
-        return instances;
+    public static ArrayList<Squad> all() {
+        return (ArrayList<Squad>) instances;
     }
 
     public int getId() {
