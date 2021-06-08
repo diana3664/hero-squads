@@ -8,10 +8,6 @@
     <artifactId>hero-dian</artifactId>
     <version>1.0</version>
 
-<!--    <groupId>org.apache.maven.plugins</groupId>-->
-<!--    <artifactId>maven-compiler-plugin</artifactId>-->
-<!--    <version>1.0</version>-->
-
     <dependencies>
         <!-- We need to list out ALL dependencies our project needs. If you have dependencies not listed here, but sure to add them -->
         <dependency>
@@ -25,10 +21,14 @@
             <version>2.5.5</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1208</version>
+        </dependency>
+        <dependency>
+            <groupId>org.sql2o</groupId>
+            <artifactId>sql2o</artifactId>
+            <version>1.5.4</version>
         </dependency>
     </dependencies>
     <build>
@@ -67,7 +67,7 @@
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
-                <version>2.0.3</version>
+                <version>0.4.4</version>
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <!-- Change this to YOUR application name! -->

@@ -7,13 +7,16 @@ public class Squad {
     private String mCauseForFighting;
     private String mSize;
     private static List<Squad> instances = new ArrayList<>();
-    private int mId;
-    private List<Heros>mHeroes;
+    private int mid;
+    private ArrayList<Heros>mHeroes;
 
     public Squad(String name ,String causeForFighting, String size) {
         this.mName = name;
         this.mCauseForFighting = causeForFighting;
         this.mSize = size;
+        instances.add(this);
+        mid = instances.size();
+        mHeroes = new ArrayList<Heros>();
 
     }
 
@@ -30,12 +33,13 @@ public class Squad {
         return mSize;
     }
 
-    public static List<Squad> all() {
-        return instances;
+    public static ArrayList<Squad> all() {
+
+        return (ArrayList<Squad>) instances;
     }
 
-    public int getId() {
-        return mId;
+    public int getmId() {
+        return mid;
     }
 
     public static Squad find(int id){

@@ -1,6 +1,7 @@
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,69 +17,83 @@ public class App {
         port(getHerokuAssignedPort());
         staticFileLocation("/public");
 
-        get("/", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
+
+
+
+
+        get("/home", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
             return new ModelAndView(model, "index.hbs");
 
         }, new HandlebarsTemplateEngine());
 
-        get("/heroes/new", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-            return new ModelAndView(model, "form.hbs");
 
+
+        get("/heroes/new", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            return new ModelAndView(model, "hero-form.hbs");
         }, new HandlebarsTemplateEngine());
 
-
-
-        get("/heroes", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-            model.put("heroes",Heros.all());
-            return new ModelAndView(model, "heros.hbs");
-
-        }, new HandlebarsTemplateEngine());
 
 
         post("/heroes/new", (request,response)-> {
-            Map<String, Object> model = new HashMap<String, Object>();
+            Map<String, Object> model = new HashMap<>();
+
 
             String name = request.queryParams("name");
             String age = request.queryParams("age");
             String power = request.queryParams("power");
             String weakness = request.queryParams("weakness");
-
-
-
-            Heros hero = new Heros(name, age, power, weakness);
-            model.put("name", name);
-            model.put("age", age);
-            model.put("power", power);
-            model.put("weakness", weakness);
-
+            Heros heroes = new Heros(name,age,power,weakness);
+            model.put("heroes", heroes);
 
             return new ModelAndView(model, "successForm.hbs");
-
-
-
         }, new HandlebarsTemplateEngine());
 
 
-//        trial
+        //get: show all posts
+        get("/heroes", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            ArrayList<Heros> heroes = Heros.all();
+            model.put("heroes", heroes);
 
-        get("/home", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-            model.put("heroes",Heros.all());
-            return new ModelAndView(model, "home.hbs");
-
+            return new ModelAndView(model, "heroList.hbs");
         }, new HandlebarsTemplateEngine());
 
+
+
+//squads
         get("/squad", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            model.put("heroes",Heros.all());
-            return new ModelAndView(model, "SquadForm.hbs");
+            ArrayList<Squad> squad = Squad.all();
+            model.put("squad", squad);
 
+            return new ModelAndView(model, "squadList.hbs");
+        },new HandlebarsTemplateEngine());
+
+
+
+        get("/squad/new", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            return new ModelAndView(model, "SquadForm.hbs");
         }, new HandlebarsTemplateEngine());
 
+
+        post("/squad/new", (request, response) -> { //URL to make new post on POST route
+            Map<String, Object> model = new HashMap<>();
+
+            String name = request.queryParams("name");
+            String size = request.queryParams("size");
+            String cause = request.queryParams("cause");
+
+            Squad newSquad = new Squad(name,cause,size);
+            model.put("squad", newSquad);
+            return new ModelAndView(model, "successSquad.hbs");
+        }, new HandlebarsTemplateEngine());
+
+
     }
+
 
 
     static int getHerokuAssignedPort() {
@@ -89,4 +104,7 @@ public class App {
         return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
     }
 
+
 }
+
+
