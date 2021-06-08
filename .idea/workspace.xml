@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c9e363a3-0187-4bce-afba-81818648f74b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/HerosTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/HerosTest.txt" afterDir="false" />
+>>>>>>> b75aa66d571f32c05338a77aa90578dbde43baaf
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
