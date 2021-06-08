@@ -66,5 +66,5 @@
   <testcase classname="SquadTest" name="newSquad_instantntiateCorrectly" time="0"/>
   <testcase classname="SquadTest" name="Squad_instantiatesWithSize_Sting" time="0"/>
   <testcase classname="SquadTest" name="Squad_instantiatesWithCauseForFighting_Sting" time="0"/>
-  <testcase classname="SquadTest" name="Heros_instantiatesWithAge_int" time="0"/>
+  <testcase classname="SquadTest" name="Squad_instantiatesWithAge_int" time="0"/>
 </testsuite>

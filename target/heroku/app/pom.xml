@@ -3,11 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>squads-hero</artifactId>
     <version>1.0</version>
-
     <dependencies>
         <!-- We need to list out ALL dependencies our project needs. If you have dependencies not listed here, but sure to add them -->
         <dependency>
@@ -15,6 +13,7 @@
             <artifactId>spark-core</artifactId>
             <version>2.6.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sparkjava/spark-template-handlebars -->
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-template-handlebars</artifactId>
@@ -69,11 +68,10 @@
                     <!-- Change this to YOUR application name! -->
                     <appName>hero-squad</appName>
                     <processTypes>
-                        <web>java -jar target/my-app-1.0-jar-with-dependencies.jar</web>
+                        <web>java -jar target/squads-hero-1.0-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>

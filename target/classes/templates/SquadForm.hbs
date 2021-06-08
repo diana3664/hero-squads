@@ -1,8 +1,11 @@
+{{#partial "content"}}
+
 <h1>Squad</h1>
 
 <p>Add a Squad:</p>
 
-<form action="/squad" method="post">
+<form action="/squad/new" method="post">
+
     <div class="form-group">
         <label for="name"> Squad Name</label>
         <input id="name" name="name" type="text" class="form-control">
@@ -19,13 +22,6 @@
     <button type="submit" class="btn btn-success btn-block">Add Squad</button>
 </form>
 
-<!--<! DOCTYPE>-->
-<!--<html>-->
-<!--<head>-->
+{{/partial}}
 
-<!--    <titile>My Heroes</titile>-->
-<!--<body>-->
-<!--<h1>Hello Codding world</h1>-->
-<!--</body>-->
-<!--</head>-->
-<!--</html>-->
+{{> layout.hbs}}
