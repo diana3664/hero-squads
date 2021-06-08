@@ -15,7 +15,7 @@ public class HerosTest {
     @Test
     public void Heros_instantiatesWithName_String() {
         Heros hero = new Heros("Moh","21","flash","time");
-        assertEquals("Moh", hero.getmName());
+        assertEquals("Moh", hero.getName());
 
     }
 
@@ -23,14 +23,14 @@ public class HerosTest {
     @Test
     public void Heros_instantiatesWithAge_int() {
         Heros hero = new Heros("Moh","21","flash","time");
-        assertEquals("21", hero.getmAge());
+        assertEquals("21", hero.getAge());
 
     }
 
     @Test
     public void Heros_instantiatesWithpower_String() {
         Heros hero = new Heros("Moh","21","flash","time");
-        assertEquals("flash", hero.getmPower());
+        assertEquals("flash", hero.getPower());
 
     }
 
@@ -38,7 +38,7 @@ public class HerosTest {
     @Test
     public void Heros_instantiatesWithPower_String() {
         Heros hero = new Heros("Moh","21","flash","time");
-        assertEquals("time", hero.getmWeakness());
+        assertEquals("time", hero.getWeakness());
 
     }
 

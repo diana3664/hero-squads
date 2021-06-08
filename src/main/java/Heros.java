@@ -7,8 +7,8 @@ public class Heros {
     private String mAge;
     private String mPower;
     private String mWeakness;
-    private static ArrayList<Heros> instances = new ArrayList<Heros>();
-    private int mId ;
+    private static ArrayList<Heros> instances = new ArrayList<>();
+    private int id ;
 
     public Heros (String name, String age, String power, String weakness){
         mName = name;
@@ -16,24 +16,24 @@ public class Heros {
         mPower = power;
         mWeakness = weakness;
         instances.add(this);
-        mId = instances.size();
+        id = instances.size();
 
     }
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 
 
-    public String getmAge() {
+    public String getAge() {
         return mAge;
     }
 
-    public String getmPower() {
+    public String getPower() {
         return mPower;
     }
 
-    public String getmWeakness() {
+    public String getWeakness() {
         return mWeakness;
     }
 
@@ -46,7 +46,7 @@ public class Heros {
     }
 
     public int getmId() {
-        return mId;
+        return id;
     }
     public static Heros find(int id) {
         return instances.get(id - 1);

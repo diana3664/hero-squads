@@ -36,7 +36,7 @@ public class SquadTest {
     }
 
     @Test
-    public void Heros_instantiatesWithAge_int() {
+    public void Squad_instantiatesWithAge_int() {
         Squad squad = new Squad("Mbogi", "Save the universe", "12");
         assertEquals("Save the universe", squad.getCauseForFighting());
 

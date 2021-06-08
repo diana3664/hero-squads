@@ -13,20 +13,12 @@ public class App {
 
         staticFileLocation("/public");
 
-        get("/", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
+        get("/home", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
             return new ModelAndView(model, "index.hbs");
 
         }, new HandlebarsTemplateEngine());
 
-
-        get("/heroes", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-            ArrayList<Heros> heros = Heros.all();
-            model.put("Heros", heros);
-
-            return new ModelAndView(model, "heroList.hbs");
-        },new HandlebarsTemplateEngine());
 
 
         get("/heroes/new", (req, res) -> {
@@ -37,16 +29,15 @@ public class App {
 
 
         post("/heroes/new", (request,response)-> {
-            Map<String, Object> model = new HashMap<String, Object>();
+            Map<String, Object> model = new HashMap<>();
 
 
             String name = request.queryParams("name");
             String age = request.queryParams("age");
             String power = request.queryParams("power");
             String weakness = request.queryParams("weakness");
-
-            Heros newHero = new Heros(name,age,power,weakness);
-            model.put("hero",newHero);
+            Heros heroes = new Heros(name,age,power,weakness);
+            model.put("heroes", heroes);
 
             return new ModelAndView(model, "successForm.hbs");
         }, new HandlebarsTemplateEngine());
@@ -55,27 +46,19 @@ public class App {
         //get: show all posts
         get("/heroes", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
-            ArrayList<Heros> heros =Heros.all();
-            model.put("Hero", heros);
+            ArrayList<Heros> heroes = Heros.all();
+            model.put("heroes", heroes);
 
             return new ModelAndView(model, "heroList.hbs");
         }, new HandlebarsTemplateEngine());
 
 
-        //get: show an individual post
-        get("/heroes/:id", (req, res) -> {
-            Map<String, Object> model = new HashMap<>();
-            int idOfHeroToFind = Integer.parseInt(req.params("id")); //pull id - must match route segment
-            Heros foundHero = Heros.find(idOfHeroToFind); //use it to find post
-            model.put("post", foundHero); //add it to model for template to display
-            return new ModelAndView(model, "hero-detail.hbs"); //individual post page.
-        }, new HandlebarsTemplateEngine());
 
 //squads
         get("/squad", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             ArrayList<Squad> squad = Squad.all();
-            model.put("Squad", squad);
+            model.put("squad", squad);
 
             return new ModelAndView(model, "squadList.hbs");
         },new HandlebarsTemplateEngine());
@@ -88,20 +71,15 @@ public class App {
         }, new HandlebarsTemplateEngine());
 
 
-
-        post("/squad/new", (request,response)-> {
-            Map<String, Object> model = new HashMap<String, Object>();
-
+        post("/squad/new", (request, response) -> { //URL to make new post on POST route
+            Map<String, Object> model = new HashMap<>();
 
             String name = request.queryParams("name");
             String size = request.queryParams("size");
             String cause = request.queryParams("cause");
 
-            Squad newSquad = new Squad(name,size,cause);
-
+            Squad newSquad = new Squad(name,cause,size);
             model.put("squad", newSquad);
-
-
             return new ModelAndView(model, "successSquad.hbs");
         }, new HandlebarsTemplateEngine());
 

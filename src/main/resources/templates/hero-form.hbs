@@ -2,17 +2,13 @@
 
 {{#partial "content"}}
 
-    {{#if editHero}}
-        <h1>Edit this Hero!</h1>
-        <form action="/heroes/{{editHero.id}}/update" method="post">
-            <label for="content">Edit this Hero's content</label>
-            <input id="content" name="content" type="text" value="{{editHero.content}}">
 
-           </form>
-    {{else}}
             <h1>Add a new Hero!</h1>
 
-            <form action="/heroes/new" method="post">
+
+<!--            <p> <img src="/images/pic.jpeg"> </p>-->
+
+            <form action="/heroes/new" method="post" id="image">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input id="name" name="name" type="text" class="form-control">
@@ -29,7 +25,6 @@
                     <label for="weakness">Weakness</label>
                     <input id="weakness" name="weakness" type="text" class="form-control">
                 </div>
-    {{/if}}
         <button type="submit" class="btn btn-default">Add a Hero</button>
 
     </form>

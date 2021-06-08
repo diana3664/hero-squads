@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9e363a3-0187-4bce-afba-81818648f74b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
@@ -9,12 +16,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pubilc/css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pubilc/css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Squad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pubilc/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pubilc/images/images.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/SquadForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/SquadForm.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hero-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hero-form.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroList.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/heroList.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squad-details.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squad-details.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/successForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/successForm.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/successSquad.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/successSquad.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HerosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HerosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SquadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SquadTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +77,14 @@
   <component name="ProjectId" id="1tXBFjGDdCoRdpl97wqjymC9Gz9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-blog" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../presentation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/public/images/csss" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,13 +98,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.HerosTest">
-    <configuration name="HerosTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SquadTest">
+    <configuration name="HerosTest.Heros_instantiatesWithAge_int" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HerosTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;HerosTest.Heros_instantiatesWithAge_int&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -91,12 +119,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HerosTest.Heros_instantiatesWithPower_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HerosTest.Heros_instantiatesWithName_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HerosTest.Heros_instantiatesWithPower_String&quot;" />
+        <option name="scriptParameters" value="--tests &quot;HerosTest.Heros_instantiatesWithName_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -111,12 +139,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HerosTest.Heros_instantiatesWithpower_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SquadTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HerosTest.Heros_instantiatesWithpower_String&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SquadTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -131,12 +159,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HerosTest.all_returnsAllInstancesOfHeros_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SquadTest.Squad_instantiatesWithCauseForFighting_Sting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HerosTest.all_returnsAllInstancesOfHeros_true&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SquadTest.Squad_instantiatesWithCauseForFighting_Sting&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -151,12 +179,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HerosTest.clear_emptiesAllHeros_0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SquadTest.Squad_instantiatesWithName_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HerosTest.clear_emptiesAllHeros_0&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SquadTest.Squad_instantiatesWithName_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HerosTest" />
-        <item itemvalue="Gradle.HerosTest.clear_emptiesAllHeros_0" />
-        <item itemvalue="Gradle.HerosTest.all_returnsAllInstancesOfHeros_true" />
-        <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithPower_String" />
-        <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithpower_String" />
+        <item itemvalue="Gradle.SquadTest" />
+        <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithName_String" />
+        <item itemvalue="Gradle.SquadTest.Squad_instantiatesWithName_String" />
+        <item itemvalue="Gradle.SquadTest.Squad_instantiatesWithCauseForFighting_Sting" />
+        <item itemvalue="Gradle.HerosTest.Heros_instantiatesWithAge_int" />
       </list>
     </recent_temporary>
   </component>
