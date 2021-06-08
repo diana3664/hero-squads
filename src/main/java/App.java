@@ -21,7 +21,7 @@ public class App {
 
 
 
-        get("/home", (request, response) -> {
+        get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             return new ModelAndView(model, "index.hbs");
 

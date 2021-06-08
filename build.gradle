@@ -7,7 +7,7 @@ group 'org.example'
 version '1.0-SNAPSHOT'
 
 mainClassName = 'App'
-
+applicationName = 'hero-dian'
 
 sourceCompatibility = 1.8
 

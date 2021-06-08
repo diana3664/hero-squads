@@ -3,18 +3,16 @@
 This is a java app that enables a user create a hero and a squad and also the user can add a hero to a squad
 ## Author
 
-* **Atemba Emmanuel** 
+* **Dian Dian Kerubo** 
 
 
-## Demo
-![Alt text](src/main/resources/public/img/demo.png?raw=true "")
 
 
 ## Getting Started
 
 Clone this repository to your local machine to get Started
 
-Github: [https://github.com/atembamanu/Hero-squad-.git](https://github.com/atembamanu/Hero-squad.git)
+
 
 ### Prerequisites
 
@@ -46,11 +44,12 @@ Create a test class for running tests in the application.
 This is a sample test that tests if the getter method works
 
 ```
-@Test
-public void newHero_getName_String(){
-  hero testHero = Hero.setUpNewHero();
-  assertEquals("Atemba", testHero.getName());
-}
+  @Test
+    public void Heros_instantiatesWithName_String() {
+        Heros hero = new Heros("Moh","21","flash","time");
+        assertEquals("Moh", hero.getName());
+
+    }
 ```
 
 ## Built With
