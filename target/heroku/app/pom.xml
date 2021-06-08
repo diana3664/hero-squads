@@ -4,9 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>hero-dian</artifactId>
     <version>1.0</version>
+
+<!--    <groupId>org.apache.maven.plugins</groupId>-->
+<!--    <artifactId>maven-compiler-plugin</artifactId>-->
+<!--    <version>1.0</version>-->
 
     <dependencies>
         <!-- We need to list out ALL dependencies our project needs. If you have dependencies not listed here, but sure to add them -->
@@ -67,9 +71,9 @@
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <!-- Change this to YOUR application name! -->
-                    <appName>hero-squad</appName>
+                    <appName>hero-dian</appName>
                     <processTypes>
-                        <web>java -jar target/my-app-1.0-jar-with-dependencies.jar</web>
+                        <web>java -jar target/hero-dian-1.0-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
