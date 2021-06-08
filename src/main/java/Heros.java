@@ -7,7 +7,7 @@ public class Heros {
     private String mAge;
     private String mPower;
     private String mWeakness;
-    private static List<Heros> instances = new ArrayList<Heros>();
+    private static ArrayList<Heros> instances = new ArrayList<Heros>();
     private int mId ;
 
     public Heros (String name, String age, String power, String weakness){
@@ -37,7 +37,7 @@ public class Heros {
         return mWeakness;
     }
 
-    public static List<Heros> all() {
+    public static ArrayList<Heros> all() {
         return instances;
     }
 
