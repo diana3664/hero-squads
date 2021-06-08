@@ -2,37 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9e363a3-0187-4bce-afba-81818648f74b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pubilc/css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/SquadForm.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/form.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/heros.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/successForm.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/.heroku-deploy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/pubilc/css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/SquadForm.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/form.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/heros.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/home.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/index.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/layout.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/successForm.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/HerosTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/SquadTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/TEST-HerosTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/TEST-SquadTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/HerosTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SquadTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-HerosTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SquadTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/HerosTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/HerosTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/SquadTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/SquadTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/TEST-HerosTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/TEST-HerosTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/build.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/build.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/HerosTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/HerosTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SquadTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SquadTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-HerosTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-HerosTest.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
